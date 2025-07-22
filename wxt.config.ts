@@ -4,12 +4,20 @@ import { defineConfig } from 'wxt';
 export default defineConfig({
   srcDir: 'src',
   modules: ['@wxt-dev/module-svelte'],
-  binaries: {
-    chrome: '/path/to/chrome-beta', // Use Chrome Beta instead of regular Chrome
-    firefox: 'firefoxdeveloperedition', // Use Firefox Developer Edition instead of regular Firefox
-    edge: '/path/to/edge', // Open MS Edge when running "wxt -b edge"
-  },
-  dev: {
-    browser: 'firefox', // 'chromium', 'firefox', or 'webkit'
+  manifest: {
+    permissions: ['storage'],
+    icons: {
+      "16": "logo.png",
+      "32": "logo.png",
+      "48": "logo.png",
+      "96": "logo.png",
+      "128": "logo.png"
+    },
+    browser_specific_settings: {
+      gecko: {
+        id: 'tapod@example.com',
+        strict_min_version: '109.0',
+      },
+    },
   },
 });

@@ -1,6 +1,26 @@
 {
-  "name": "tapod",
+  "name": "Tapod",
   "description": "manifest.json description",
+  "author": "Amanuel Chaka",
+  "license": "MIT",
+  "homepage": "https://github.com/AmanuelCh/tapod",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmanuelCh/tapod.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AmanuelCh/tapod/issues"
+  },
+  "keywords": [
+    "wxt",
+    "new tab",
+    "tab manager",
+    "APOD",
+    "tapod"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
