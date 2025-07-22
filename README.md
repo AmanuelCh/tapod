@@ -1,7 +1,5 @@
-# WXT + Svelte
+# Tapod Extension
 
-This template should help get you started developing with Svelte in WXT.
+Tapod is a lightweight browser extension that gives your new tab a minimal look. Every time you open a new tab, Tapod displays NASA's Astronomy Picture of the Day (APOD), so you get a stunning space photo and a bit of info, right from your browser.
 
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+It's built with Svelte and WXT.

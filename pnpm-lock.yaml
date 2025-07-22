@@ -11,6 +11,9 @@ importers:
       '@tsconfig/svelte':
         specifier: ^5.0.4
         version: 5.0.4
+      '@types/chrome':
+        specifier: ^0.1.1
+        version: 0.1.1
       '@wxt-dev/module-svelte':
         specifier: ^2.0.3
         version: 2.0.3(svelte@5.36.13)(vite@6.3.5(@types/node@24.0.15)(jiti@2.4.2))(wxt@0.20.7(@types/node@24.0.15)(jiti@2.4.2)(rollup@4.45.1))
@@ -410,6 +413,9 @@ packages:
 
   '@tsconfig/svelte@5.0.4':
     resolution: {integrity: sha512-BV9NplVgLmSi4mwKzD8BD/NQ8erOY/nUE/GpgWe2ckx+wIQF5RyRirn/QsSSCPeulVpc3RA/iJt6DpfTIZps0Q==}
+
+  '@types/chrome@0.1.1':
+    resolution: {integrity: sha512-MLtFW++/n+OPQIaf5hA6pmURd3Zn+OxuvASyf2mYh8B8pHDpbhHjwlVHMw3H/aJC9Z7Z3itO0AFaZeegrGk0yA==}
 
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
@@ -2263,6 +2269,11 @@ snapshots:
       - supports-color
 
   '@tsconfig/svelte@5.0.4': {}
+
+  '@types/chrome@0.1.1':
+    dependencies:
+      '@types/filesystem': 0.0.36
+      '@types/har-format': 1.2.16
 
   '@types/estree@1.0.8': {}
 
